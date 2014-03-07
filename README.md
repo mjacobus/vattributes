@@ -41,7 +41,7 @@ end
 
 If you ever need to overrite a setter, or getter, you can do like follows:
 
-```
+```ruby
 class Post < ActiveRecord::Base
   vattributes :tags, :permalink
 
