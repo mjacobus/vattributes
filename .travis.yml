@@ -12,6 +12,7 @@ gemfile:
   # - gemfiles/Gemfile.rails-3.2.x
   - Gemfile
 before_script:
+  - cd spec/dummy
   - mysql -e 'create database vattributes_test'
   - psql -c 'create database vattributes_test' -U postgres
 notifications:
