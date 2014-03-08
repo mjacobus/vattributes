@@ -15,6 +15,7 @@ before_script:
   - cd spec/dummy
   - mysql -e 'create database vattributes_test'
   - psql -c 'create database vattributes_test' -U postgres
+  - cd ../..
 notifications:
   email:
     on_failure: change
